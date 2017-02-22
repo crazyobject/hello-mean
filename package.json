@@ -1,0 +1,17 @@
+{
+  "name": "user_info",
+  "version": "1.0.0",
+  "description": "Simple MEAN stack application to save user information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"My first MEAN stack application\""
+  },
+  "author": "Dhanesh Mane",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "latest",
+    "mongodb": "^2.2.22",
+    "mongoose": "latest"
+  }
+}

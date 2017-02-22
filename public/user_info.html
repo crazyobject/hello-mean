@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>User Info</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Enter User Information</h2>
+  <form action="/save_user" method="post">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input name="email" type="text" class="form-control" id="email" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="name">Full Name:</label>
+      <input name="name" type="text" class="form-control" id="name" placeholder="Enter full name">
+    </div>
+    <div class="form-group">
+      <label for="grade">Grade:</label>
+      <input name="grade" type="text" class="form-control" id="grade" placeholder="Enter Grade">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
